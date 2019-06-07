@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/* Import Fonts und Formatierung */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i');
+
+
+@font-face {
+    font-family: 'examp';
+    src: url('../fonts/examp.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'gloss';
+    src: url('../fonts/gloss.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'social';
+    src: url('../fonts/social.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'arcade';
+    src: url('../fonts/arcade.ttf') format('truetype');
+
+}
+
+
+h1{
+    font-family: 'examp';
+    font-size: 2.3em;
+    color: #eb3434;
+}
+
+h2{
+    font-family: 'gloss';
+    font-size: 1em;
+    color: grey;
+}
+
+p{
+    font-family: 'lato';
+    color: grey;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ################### Gestaltung Navbar:   ############# */
+
+/* Logo 1 Gestaltung ####### */
+
+.logo1_landing{
+  font-family: 'examp';
+  font-size: 4em;
+  color: #eb3434;
+  margin-bottom: 0;
+}
+
+.logo_white_landing{
+  color: #fff;
+  font-family: 'examp';
+  font-size: 4em;
+}
+
+.claim_landing{
+  color: #fff;
+  font-family: 'examp';
+  font-size: 4em;
+  margin-top: 2em;
+
+
+}
+
+.claim2_landing{
+  color: #fff;
+  font-family: 'arcade';
+  font-size: 3em;
+
+}
+
+
+
+
+
+.logo1{
+  font-family: 'examp';
+  font-size: 2em;
+  color: #eb3434;
+}
+
+.logo_white{
+  color: #fff;
+  font-family: 'examp';
+  font-size: 2em;
+}
+
+.logo2_landing{
+
+  font-family: 'gloss';
+  font-size: 1.5em;
+  margin-left: 28px;
+  color: #fff;
+  position: absolute;
+  top: 65px;
+}
+
+/* ###### Logo 2 Gestaltung ##### */
+
+.logo2{
+
+  font-family: 'gloss';
+  font-size: 0.9em;
+  margin-left: 7px;
+  color: #fff;
+  position: absolute;
+  top: 38px;
+}
+
+/* ######### Navelemente Gestaltung ######### */
+
+#menulinks a{
+
+  color: #fff;
+  font-family: 'examp';
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+#menulinks a:hover{
+  color: #eb3434;
+}
+
+.typo_ticket{
+
+  color: #fff;
+  font-family: 'examp';
+  font-size: 2.5em;
+
+}
+
+.typo_ticket2{
+
+  color: #fff;
+  font-family: 'gloss';
+  font-size: 2.5em;
+}
+
+.tickets h3{
+  color: #fff;
+  font-family: 'Lato';
+  font-size: 1.1em;
+}
+
+.tickets ul{
+  text-align: left;
+  color: #fff;
+  font-family: 'lato';
+  font-size: 0.9em;
+  margin-left: 2.5em;
+}
+
+.inserat_beschreibung{
+  color: grey;
+  font-size: 0.7em;
+  font-family: 'lato', sans-serif;
+  text-align: left;
+}
+
+/* ################## Gestaltung Ausgabe drive2gether ######## */
+
+.vorname_nachname{
+  color: #fff;
+  font-family: 'examp';
+  font-size: 1.1em;
+}
+
+.emailadresse {
+  color: black;
+  font-family: 'lato';
+}
+
+.main_inhalt_ausgabe p{
+  font-size: 1.3em;
+  font-family: 'lato';
+}
+ .ausgabe_vornamenachname{
+   color: #fff;
+   background: #eb3434;
+   width: 60vw;
+   height: 5vh;
+   font-size: 1.1em;
+   font-family: 'examp';
+   display: block;
+   line-height: 5vh;
+   padding-left: 3vh;
+
+ }
+
+ .ausgabe_email{
+   font-family: 'lato';
+   font-weight: 'bold';
+ }
+
+ .ausgabe_inhalt {
+
+   font-style: italic;
+ }
+
+ .ausgabe_preis{
+   font-family: 'lato';
+   font-weight: 800;
+   color: grey;
+   font-size: 1.2em;
+ }
+
+/* ################### ENDE Gestaltung LOGO:   ############# */
+
+/* ################### ANFANG Gestaltung Footer:   ############# */
+
+#footer_inhalt a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#footermenu1 a, #footermenu2 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#footermenu1 {
+  font-family: 'social';
+  font-size: 2.7em;
+}

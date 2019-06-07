@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+/* ###### Media Query mobile Ansicht ###### */
+
+@media only screen and (max-width: 1100px){
+
+  .ausgabe{
+    width: 90vw;
+    }
+
+  .box_mitfahrt_oben{
+    width: 90vw;
+  }
+
+  .box_mitfahrt_hauptteil{
+    width: 90vw;
+  }
+
+  .linke_box{
+    width: 35vw;
+  }
+
+  .rechte_box{
+    width: 55vw;
+    }
+
+}
+
+@media only screen and (max-width: 980px){
+
+  #menulinks{
+    max-width: 100vw;
+    flex-direction: column;
+  }
+
+  nav{
+    flex-direction: column;
+  }
+
+  #main_inhalt, #main_inhalt_drive{
+    flex-direction: column;
+  }
+
+  #main_inhalt section, #main_inhalt_drive section{
+
+    width: 90vw;
+  }
+
+  .tickets{
+    flex-direction: column;
+  }
+
+  .tickets div{
+    width:100vw;
+  }
+
+  .infos{
+    width: 85vw;
+  }
+
+  .tickets button{
+    width: 80vw;
+  }
+
+  .tickets button:hover{
+    width: 83vw;
+    height: 35px;
+  }
+
+  #main_inhalt_tickets {
+    justify-content: space-between;
+  }
+
+  #main_inhalt, #main_inhalt_drive,{
+    width: 90vw;
+  }
+
+  .text_festival, .text_drive {
+    width: 60vw;
+  }
+
+  .bild_festival img, .bild_drive img {
+    width: 95%;
+  }
+
+  .inserat{
+    width: 85vw;
+  }
+
+#footermenu1 a{
+  font-size: 0.6em;
+}
+
+#footermenu2 a{
+  font-size: 0.8em;
+}
+
+#menulinks {
+  margin-top: 3em;
+}
+
+.ausgabe_vornamenachname{
+  color: #fff;
+  background: #eb3434;
+  width: 90vw;
+  height: 5vh;
+  font-size: 1.1em;
+  font-family: 'examp';
+  display: block;
+  line-height: 5vh;
+  padding-left: 3vh;
+
+}
+
+.bild_ausgabe {
+  width: 30vw;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+
+
+  .button_landing{
+    width: 30vw;
+  }
+
+  .rechte_box p{
+    font-size: 0.8em;
+  }
+
+  .linke_box span{
+    font-size: 0.6em;
+  }
+
+  .preis{
+    font-size: 1.4em;
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+
+  .claim_landing{
+    font-size: 2.5em;
+      }
+
+  .claim2_landing{
+    font-size: 1.5em;
+      }
+}
+
+@media only screen and (max-width: 768px){
+
+
+  .claim_landing{
+    font-size: 2em;
+}
+
+  .claim2_landing{
+    font-size: 1.2em;
+}
+
+  .button_landing{
+    width: 50vw;
+  }
+}
+
+/* ###### Ende Media Query mobile Ansicht ###### */

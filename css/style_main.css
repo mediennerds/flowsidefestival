@@ -1,0 +1,518 @@
+@charset "UTF-8";
+
+/* ##### Browser Reset durchführen #### */
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+/* #### Hintergrund für Landingpage ### */
+
+#background_landing{
+  background-image: url('../bilder/landingpage_01.jpg');
+  background-size: cover;
+}
+
+
+/* ##### Gestaltung der Navigation ##### */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.7em;
+  padding-bottom: 0.5em;
+
+}
+
+.landing_nav{
+
+  background: none;
+}
+
+#navbar{
+  max-width: 100vw;
+  min-height: 8vh;
+  background: #0f1010;
+}
+
+
+/* Navbar für Landingpage ohne Hintergrundfarbe */
+
+.navbar_landingpage{
+  background: none;
+}
+
+#menulinks{
+
+  width: 45vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+
+
+}
+
+#menulinks li{
+
+  list-style-type: none;
+
+}
+
+
+
+
+/* ######  Gestaltung Hauptinhalt Main ###### */
+
+
+main{
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+#main_inhalt, #main_inhalt_drive{
+
+  min-height: 70vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.inhalt_auswertung {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.main_inhalt_ausgabe{
+
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+
+#landing_inhalt{
+  max-width: 100vw;
+  min-height:77vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5em;
+
+}
+
+#main_inhalt img{
+  max-width: 100%;
+  height: auto;
+}
+
+.text_festival, .bild_festival, .bild_drive, .text_drive{
+  width: 40vw;
+}
+
+.text_festival, .text_drive{
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.bild_festival img, .bild_drive img {
+  width: 40vw;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+#main_inhalt_infos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  margin-top: 3em;
+}
+
+#main_inhalt_gallerie{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  margin-top: 3em;
+}
+
+#main_inhalt_tickets{
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  margin-top: 3em;
+  margin-bottom: 2em;
+
+
+}
+
+.tickets{
+  width: 98vw;
+  display: flex;
+  justify-content: space-around;
+
+
+
+}
+
+#ticket_1{
+  background: #341b37;
+
+}
+
+#ticket_2{
+  background: #286caa;
+}
+
+#ticket_3{
+  background: #e30a51;
+}
+
+.tickets div{
+  width: 22vw;
+  height: 60vh;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.informationen{
+  margin-top: 1em;
+}
+
+.button_landing{
+
+  width: 16vw;
+  text-align: center;
+  background-color: #fff;
+  color: #eb3434;
+  height: 30px;
+  border: 2px dashed lightgrey;
+  font-family: 'examp';
+  font-size: 1.3em;
+
+}
+
+.tickets button{
+  width: 16vw;
+  text-align: center;
+  background-color: #fff;
+  color:#eb3434;
+  height: 30px;
+  border: 2px dashed lightgrey;
+  font-family: 'examp';
+  font-size: 1.3em;
+
+}
+
+.tickets button:hover{
+  height: 35px;
+  width: 17vw;
+}
+
+.inhalt_auswertung{
+  width: 50vw;
+}
+
+.inserat {
+  display: block;
+  width: 18vw;
+  height: 30px;
+  margin-bottom: 1.5em;
+  background: #eb3434;
+  border: none;
+  color: #fff;
+  font-family: 'lato';
+  text-align: center;
+  line-height: 30px;
+
+}
+
+.inserat_eintragen {
+  margin-top: 5em;
+}
+
+
+.infos{
+  width: 50vw;
+  margin-bottom: 5em;
+}
+
+.gallerie{
+  width: 85vw;
+}
+
+/* ###### Formatierung Accordion auf Infos Seite  ##### */
+
+.accordion {
+  max-width: 560px;
+  margin: 0 auto 100px;
+  border-top: 1px solid #d9e5e8;
+}
+.accordion li {
+  border-bottom: 1px solid #d9e5e8;
+  position: relative;
+  list-style-type: none;
+}
+.accordion li p {
+  display: none;
+  padding: 10px 25px 30px;
+  color: #6b97a4;
+}
+.accordion a {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 3;
+  font-size: 14px;
+  font-size: 0.875rem;
+  text-indent: 15px;
+  user-select: none;
+}
+.accordion a:after {
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #4a6e78;
+  border-bottom: 1px solid #4a6e78;
+  position: absolute;
+  right: 10px;
+  content: " ";
+  top: 17px;
+  transform: rotate(-45deg);
+  transition: all 0.2s ease-in-out;
+}
+.accordion p {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 2;
+  padding: 10px;
+}
+
+a.active:after {
+  transform: rotate(45deg);
+  transition: all 0.2s ease-in-out;
+}
+
+
+/* ###### Formatierung drive2gether Ausgabe #### */
+
+.main_ausgabe{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+
+#main_inhalt_ausgabe{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  max-width: 100vw;
+
+
+}
+
+.ausgabe{
+  width: 60vw;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: auto;
+}
+
+.box_mitfahrt_oben{
+
+  width: 60vw;
+  height: 5vh;
+  background: #eb3434;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+  align-items: center;
+}
+
+.box_mitfahrt_hauptteil{
+  width: 60vw;
+  height: 20vh;
+  background: #fff;
+  display: flex;
+}
+
+
+
+.linke_box{
+
+  width: 15vw;
+  padding: 2em;
+
+}
+
+.rechte_box{
+
+  width: 35vw;
+  padding: 2em;
+}
+
+.preis{
+  width: 10vw;
+  font-family: 'lato';
+  font-weight: 800;
+  font-size: 2.5em;
+  padding-top: 2em;
+
+}
+
+.linke_box img{
+  width: 50%;
+}
+
+.bild_ausgabe {
+  width: 10vw;
+}
+
+/* ######  Ende Hauptinhalt Main ###### */
+
+/* ##### Gestaltung Kontaktformular #### */
+
+form {
+  max-width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+form input, form textarea, form input {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'lato';
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+.check {
+
+  font-family: 'lato';
+  color: grey;
+  font-size: 0.8em;
+
+}
+form input:focus, form textarea:focus {
+  box-shadow: 0 0px 2px #e74c3c !important;
+}
+form #input-submit {
+  color: white;
+  background: #e74c3c;
+  cursor: pointer;
+}
+form #input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+form textarea {
+  height: 170px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* ######  Gestaltung Footer ###### */
+
+
+.footer_landing{
+
+  height: 15vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  align-items: center;
+}
+
+#footer_inhalt{
+
+  height: 15vh;
+  background: #eb3434;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  align-items: center;
+}
+
+/* Countdown */
+.hp-countdown {
+  font-size: 1em;
+  text-align: center;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1.75em;
+  opacity: .2;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+@media (max-width: 543px) {
+  .hp-countdown {
+    font-size: 3vw;
+  }
+}
+@media (min-width: 1200px) {
+  .hp-countdown {
+    font-size: 0.8em;
+  }
+}
+.hp-countdown.loaded {
+  opacity: 1;
+}
+.cd--numbers {
+  font-weight: bold;
+  font-size: 2.5em;
+  padding: 0.1em;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
